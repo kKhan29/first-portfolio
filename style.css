@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
-h1 span{
+h2{
+    font-size: 40px;
+}
+.orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +42,17 @@ section{
 }
 .dream-right{
     padding-right: 10%;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding-left: 10px;
 }
